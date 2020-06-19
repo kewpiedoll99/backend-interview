@@ -75,6 +75,9 @@ flycheck_*.el
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/compiler.xml
+.idea/**/Project_Default.xml
+.idea/vcs.xml
 
 # Gradle
 .idea/**/gradle.xml

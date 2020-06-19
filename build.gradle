@@ -21,8 +21,10 @@ project(':json-manipulation') {
     }
 
     dependencies {
+        implementation("commons-io:commons-io:2.7") {}
+        implementation("com.google.guava:guava:18.0") {}
         implementation("com.google.code.gson:gson:2.8.5") {
-            because 'Gson is threadsafe and its builder pattern is supperior to all others.'
+            because 'Gson is threadsafe and its builder pattern is superior to all others.'
         }
     }
 }
